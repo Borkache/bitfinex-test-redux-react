@@ -92,7 +92,6 @@ const WSProvider : FC<PropsWithChildren> = ({
       dispatch(decreasePrecision());
       sendMessage(JSON.stringify({
         event: 'unsubscribe',
-        // @ts-ignore
         chanId: channelId,
       }));
       sendMessage(getSubscribeMessage('book', {
