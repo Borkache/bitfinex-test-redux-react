@@ -1,11 +1,5 @@
 # Bitfinex Frontend Developer Programming Challenge
 
-Done:
-- [x] "ORDER BOOK" widget
-- [x] WS connection, recover after connection lost and error handling features
-- [x] Connect/Disconnect buttons
-- [x] Some simple SCSS styling
-
 ## Overview
 Create a web application that replicates the Order Book widget functionality from the Trading page of the Bitfinex website.
 https://www.bitfinex.com/trading
