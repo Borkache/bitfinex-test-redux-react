@@ -1,39 +1,35 @@
-.App {
+.book__main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(16, 35, 49);
+}
+.book__header {
+  display: flex;
+  font-weight: 700;
+}
+
+.book__rows {
+  display: flex;
+  flex-direction: column;
+}
+.book__row {
+  display: flex;
+  align-items: center;
+}
+.book__row div, .book__header div {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.book__count {
+  width: 40px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.book__price {
+  width: 25vw;
 }
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.book__amount {
+  width: 25vw;
 }
-
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.book__total {
+  width: 85px;
 }

@@ -1,6 +1,41 @@
+# Bitfinex Frontend Developer Programming Challenge
+
+Done:
+- [x] "ORDER BOOK" widget
+- [x] WS connection, recover after connection lost and error handling features
+- [x] Connect/Disconnect buttons
+- [x] Some simple SCSS styling
+
+## Overview
+Create a web application that replicates the Order Book widget functionality from the Trading page of the Bitfinex website.
+https://www.bitfinex.com/trading
+
+## Different from the book on the website, the created Order Book should just need to have the ability to change the precision of the price column.
+Price alerts management, scaling of the depth bars and layout configuration features are not required.
+
+## General Requirements
+The widget should conceptually be the same as the corresponding widgets on the Bitfinex website.
+It should show the data in real-time and should have the ability to recover after a lost network connection.
+You can add some controls to manage the WebSocket connection such as "Connect" and "Disconnect" buttons.
+
+## Technological Requirements
+Use React for rendering and Redux to store the market data.
+Feel free to create a custom CSS style for the widgets, it can be very simple.
+Use Bitfinex WebSocket V2 API to obtain the data.
+
+https://docs.bitfinex.com/v2/docs
+
+## Suggestions
+Use this React template to bootstrap your application quickly
+https://github.com/facebook/create-react-app
+
+*Be aware you can view the order book etc by using the 'Try Demo' feature on the homepage, without needing to create an account.*
+
+**Note: My implementation also uses Typescript**
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
